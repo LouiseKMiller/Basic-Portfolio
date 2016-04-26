@@ -2,3 +2,23 @@
 	Week 1 Assignment Basic-Portfolio
 	April 2016
 */
+
+/* 
+========================================+++========
+images
+===================================================
+*/
+.thumbnail {
+	height: 50px;
+	width: 50px;
+}
+
+.portfolio-image {
+	height: 75px;
+	width: 100px;
+}
+
+.personal-image {
+	height: 400px;
+	width: 400px;
+}
