@@ -170,6 +170,7 @@ Header
 header {
 	height: 78px;
 	border-bottom: 2px solid #cccccc;
+	background-color: white;
 }
 h1 {
 	font-size: 21px;
