@@ -307,9 +307,32 @@ button {
 
 /*
 ===================================================
+images
+===================================================
+*/
+.thumbnail {
+	height: 60px;
+	width: 60px;
+	margin-right: 2px;
+}
+
+#bio-image {
+	float: left;
+	height: 200px;
+	width: 200px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+/*
+===================================================
 Sticky Footer
 ===================================================
 */
+* {
+	margin: 0;
+}
+
 html, body {
 	height: 100%;
 }
@@ -331,25 +354,7 @@ html, body {
 
 .site-footer {
 	background-color: #666666;
-	line-height: 70px;
+	line-height: 64px;
 	text-align: center;
 	border-top: 6px solid #4aaaa5;
-}
-/*
-===================================================
-images
-===================================================
-*/
-.thumbnail {
-	height: 60px;
-	width: 60px;
-	margin-right: 2px;
-}
-
-#bio-image {
-	float: left;
-	height: 200px;
-	width: 200px;
-	padding-right: 10px;
-	padding-bottom: 5px;
 }
