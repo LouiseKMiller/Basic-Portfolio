@@ -19,7 +19,7 @@
 
  .container {
  	margin-left: 0px;
- 	width: 100%;
+ 	width: 1185px;
   	}
 
 /*
@@ -49,15 +49,15 @@ Using in-line block elements
 .main-block {
 	display: inline-block;
 	vertical-align: top;
-	width: 50%;
-	margin-right: 5%;
-	margin-left: 10%;}
+	width: 650px;
+	margin-right: 43px;
+	margin-left: 90px;}
 
 .header-right,
 .side-bar {
 	display: inline-block;
 	vertical-align: top;
-	width: 35%;
+	width: 270px;
 }
 
 .main-block {
@@ -136,7 +136,7 @@ h2, h3 {
 	color: #4aaaa5;
 }
 footer {
-	color: white;
+	color: #ffffff;
 }
 
 /*
@@ -146,7 +146,7 @@ footer {
  */
 
  h1, h2, h3, h4 {
- 	font-family: 'Georgia', Times, "Times New Roman", serif;
+ 	font-family: 'Georgia', Times, 'Times New Roman', serif;
  }
 
  h3 {
@@ -159,7 +159,12 @@ Links
 ===================================================
 */
 a:link {
+	color: #777777;
 	text-decoration: none;
+}
+
+a:hover {
+	color: #4aaaa5;
 }
 
  /*
@@ -170,7 +175,7 @@ Header
 header {
 	height: 78px;
 	border-bottom: 2px solid #cccccc;
-	background-color: white;
+	background-color: #ffffff;
 }
 h1 {
 	font-size: 21px;
